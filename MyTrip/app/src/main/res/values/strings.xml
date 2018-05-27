@@ -3,4 +3,5 @@
     <string name="distance">Distance</string>
     <string name="price">Price</string>
     <string name="autonomy">Autonomy</string>
+    <string name="valid_values">Valid values</string>
 </resources>
