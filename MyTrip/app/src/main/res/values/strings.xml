@@ -4,4 +4,7 @@
     <string name="price">Price</string>
     <string name="autonomy">Autonomy</string>
     <string name="valid_values">Valid values</string>
+    <string name="textTotal">Total:</string>
+    <string name="kilometers_per_liter">kilometers per liter</string>
+    <string name="total_kilometers">total kilometers</string>
 </resources>

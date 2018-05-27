@@ -20,6 +20,16 @@
         android:textColor="@color/colorText"
         android:textColorHint="@color/colorDarkGray" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="@string/total_kilometers"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDarkGray"
+        android:textSize="10sp" />
+
     <EditText
         android:id="@+id/editPrice"
         android:layout_width="match_parent"
@@ -32,6 +42,16 @@
         android:hint="@string/price"
         android:textColor="@color/colorText"
         android:textColorHint="@color/colorDarkGray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="price per liter"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDarkGray"
+        android:textSize="10sp" />
 
     <EditText
         android:id="@+id/editAutonomy"
@@ -47,9 +67,32 @@
         android:textColorHint="@color/colorDarkGray" />
 
     <TextView
-        android:id="@+id/textResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="@string/kilometers_per_liter"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDarkGray"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="@string/textTotal"
+        android:textAllCaps="true"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textSize="35sp"
         android:text="R$ 0,00" />
 
     <Button
